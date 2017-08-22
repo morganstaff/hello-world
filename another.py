@@ -15,7 +15,7 @@ print "You can also do a for loop like this:\n"
 
 for i in range(1, 12):
   ans = i * 7
-  print "{1} x 7 = {2}".format(i, ans)
+  print "{0} x 7 = {1}".format(i, ans)
 
 
 
