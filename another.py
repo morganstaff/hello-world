@@ -9,7 +9,7 @@ for char in name:
   print "Letter {spot} is {char} in {name}.\n".format(**locals())
   spot += 1
 
-print "There are a total of {spot} letters in your name {name}".format(**local())
+print "There are a total of {spot} letters in your name {name}".format(**locals())
 
 print "You can also do a for loop like this:\n"
 
